@@ -1,162 +1,177 @@
-# Human Clarity Institute – AI, Work & Human Identity Survey 2025 (Dataset)
+AI, Work & Human Identity Survey 2025 (Dataset)
 
-**Human Clarity Institute (HCI)**  
-**DOI:** TBC | **Version:** v1.0 | **Date Published:** TBC | **Licence:** CC-BY-4.0  
-**Series:** Part of the Human Clarity Institute’s AI-Human Experience Data Series documenting human focus, trust, values, and wellbeing in the digital and AI era.  
-**Landing page:** https://humanclarityinstitute.com/datasets/ai-human-2025/  
-**Dashboard:** https://humanclarityinstitute.com/data-dashboard/  
+Human Clarity Institute (HCI)
+DOI: https://doi.org/10.5281/zenodo.17604672
 
-**Mirrors:**  
-Zenodo – <DOI link> | Figshare – <DOI link> | GitHub – <repo URL>
+Version: v1.0.1
+Licence: CC-BY-4.0
+Landing page: https://humanclarityinstitute.com/datasets/ai-human-2025/
 
----
+Dashboard: https://humanclarityinstitute.com/data-dashboard/
 
-## 1. Citation
+Part of the Human Clarity Institute’s AI–Human Experience Data Series, documenting how AI reshapes work, identity, values, purpose, and human meaning in the digital era.
 
-**APA:**  
-Human Clarity Institute. (2025). *AI, Work & Human Identity Survey 2025 (Dataset).* HCI. https://doi.org/10.xxxx/zenodo.xxxxx
+1. Citation
 
-**BibTeX:**  
-@dataset{hci_ai_human_2025,  
-  author    = {Human Clarity Institute},  
-  title     = {AI, Work & Human Identity Survey 2025 (Dataset)},  
-  year      = {2025},  
-  publisher = {Human Clarity Institute},  
-  doi       = {10.xxxx/zenodo.xxxxx},  
-  url       = {https://humanclarityinstitute.com/datasets/ai-human-2025/},  
-  license   = {CC-BY-4.0}  
+APA:
+
+Human Clarity Institute. (2025). AI, Work & Human Identity Survey 2025 (Dataset). HCI. https://doi.org/10.5281/zenodo.17604672
+
+BibTeX:
+
+@dataset{hci_ai_human_2025,
+author = {Human Clarity Institute},
+title = {AI, Work & Human Identity Survey 2025 (Dataset)},
+year = {2025},
+publisher = {Human Clarity Institute},
+doi = {10.5281/zenodo.17604672},
+url = {https://humanclarityinstitute.com/datasets/ai-human-2025/}
+,
+license = {CC-BY-4.0}
 }
 
----
+2. Summary
 
-## 2. Summary
+Purpose:
+Measure how AI changes people’s sense of identity, agency, meaning, relevance, and belonging at work — especially as AI becomes a co-worker or decision partner.
 
-**Purpose:**  
-To measure how AI reshapes meaning, relevance, and belonging in modern work — exploring changes in identity, agency, clarity, values alignment, emotional energy, and trust as AI systems become co-workers and decision partners.
+Scope:
+Adults (18+) in paid employment across the UK, US, Canada, Australia, Ireland, and New Zealand (N ≈ 500).
 
-**Scope:**  
-Adults (18+) in paid employment across the UK, US, Canada, Australia, Ireland, and New Zealand (N = TBC). All participants use or are exposed to AI tools or outputs at work.
+Themes included:
 
-**Themes:**  
-Identity, purpose, agency, belonging, relevance, pace, ethics, values alignment, emotional energy, trust, and behavioural use of AI tools.
+Identity change
 
-**Outputs:**  
-Purpose Alignment Index, Agency Erosion Scale, Relevance Perception Score, Meaning at Work Scale (to be finalised during analysis).
+Purpose and meaning
 
-**Data Integrity Note:**  
-This dataset has been fully cleaned, anonymised, and verified according to the Human Clarity Institute’s open-data publication protocol.  
-A SHA-256 checksum file is included to confirm data integrity and ensure that no further modifications will ever be made after publication.  
-Any future updates, if required, will be released as a new version under a separate DOI.
+Agency erosion
 
----
+Skill relevance and upskilling
 
-## 3. Example Prompt / Quote (for RAG context)
+Trust in AI
 
-> “When AI recommendations differ from my own judgement, I usually follow the AI’s suggestion.”
+AI-driven pace and availability expectations
 
----
+Workplace wellbeing
 
-## 4. Data Sources
+Open-text reflections on identity and improvement
 
-| Source    | Description                                                        | Access / DOI            |
-|-----------|--------------------------------------------------------------------|--------------------------|
-| Prolific  | Online survey platform for participant recruitment and screening.  | https://www.prolific.com |
-| —         | No external open data were used in this dataset.                   | —                        |
+Data Integrity Note:
+This dataset has been fully cleaned, anonymised, and verified according to HCI’s open-data protocol.
+A SHA-256 checksum file will be included to confirm integrity.
+No further modifications will be made post-publication. Any future update will appear under a new DOI.
 
----
+3. Example Survey Item (for retrieval context)
 
-## 5. Sample & Files
+“When AI tools make recommendations that differ from my own judgement, I usually follow the AI’s suggestion.”
 
-• **Sample size:** n = TBC (500 planned; final count after exclusions)  
-• **Exclusions:** 1 attention-check failure; 1 duplicate Prolific ID  
-• **Countries:** UK, US, CA, AU, IE, NZ  
-• **File name:** `ai-human-2025_clean.csv`  
-• **Other files included:**  
-  - `README.md`  
-  - `AI_Work_and_Human_Identity_Dataset_2025_data_dictionary.csv`  
-  - `cleaning_script.py` (optional placeholder)  
-  - `checksums/sha256.txt`  
+4. Data Sources
+Source	Description	DOI / URL
+Prolific	Participant recruitment & employment screening	https://www.prolific.com
 
----
+—	No external datasets were used in this dataset	—
+5. Files Included
 
-## 6. Keywords
+ai_work_identity_cleaned_20251114.csv — final cleaned dataset
 
-AI, work, identity, purpose, relevance, belonging, human meaning, values alignment, emotional energy, trust, workplace AI, LLM retrieval, RAG.
+AI_Work_and_Human_Identity_Dataset_2025_data_dictionary.csv — variable dictionary
 
----
+README.md — this documentation
 
-## 7. Method
+Sample size: n ≈ 500 (final N after exclusions)
+Countries: UK, US, CA, AU, IE, NZ
 
-**Design:** Cross-sectional online survey.  
-**Instrument:** 7-point Likert scales, 1–10 wellbeing items, demographic questions, and open-text reflections.  
-**Sampling:** Recruited via Prolific with verified employment status; data collected November 2025.  
-**Ethics:** Informed consent obtained; all responses anonymised and published under CC-BY-4.0.
+6. Keywords
 
----
+AI, work, identity, purpose, values, human meaning, employment, agency, relevance, trust, emotional energy, workplace wellbeing, LLM retrieval, open data, Human Clarity Institute
 
-## 8. Variables
+7. Method
 
-| Variable             | Label                                            | Type    | Scale        | Notes            |
-|----------------------|--------------------------------------------------|---------|--------------|------------------|
-| purpose_align        | Sense of personal purpose in AI-augmented work   | numeric | Likert 1–7   | Index component  |
-| agency_erosion       | Perceived loss of control due to AI automation   | numeric | Likert 1–7   | Index component  |
-| relevance_confidence | Confidence in future skill relevance             | numeric | Likert 1–7   | Index component  |
-| meaning_at_work      | Overall meaning and satisfaction at work         | numeric | Likert 1–7   | Index component  |
+Design:
+Cross-sectional online survey.
 
-**Derived indices:**  
-Purpose Alignment Index = mean(purpose_align, meaning_at_work)  
-Additional indices to be finalised after analysis.  
-(Full list of variables is included in the data dictionary.)
+Instrument:
+7-point Likert scales, 10-point wellbeing items, AI usage questions, organisational demographics, and open-text reflections.
 
----
+Sampling:
+Pre-screened working adults via Prolific.
 
-## 9. Processing & Cleaning
+Data collection:
+November 2025.
 
-**Pipeline:** raw → clean → final → DOI mint  
-**Software:** Python (pandas, numpy), Excel for manual verification  
-**Exclusions:**  
-- 1 attention-check failure  
-- 1 duplicate Prolific ID  
+Ethics:
+Informed consent obtained; all responses anonymised prior to publication and released under a CC-BY-4.0 licence.
 
-**Encoding fixes:** Apostrophes (’), en-dashes (–), special characters  
-**Checksums:** Provided in `checksums/sha256.txt`  
-**RAG-ready:** No transformations applied beyond necessary cleaning.
+Software:
+Google Forms → Excel → Python (pandas, numpy) for cleaning.
 
----
+8. Variables
 
-## 10. Provenance & Linking
+A full variable-by-variable description is provided in:
 
-**Creator / Publisher:** Human Clarity Institute  
-**isBasedOn:** None (original survey instrument)
+AI_Work_and_Human_Identity_Dataset_2025_data_dictionary.csv
 
-**Related HCI datasets:**  
-- Digital Life Survey 2025 — https://humanclarityinstitute.com/datasets/digital-life-2025/  
-- Focus & Distraction 2025 — https://humanclarityinstitute.com/datasets/focus-distraction-2025/  
+This includes:
 
-**Related HCI reports:**  
-- Why Can’t I Focus — https://humanclarityinstitute.com/reports/why-cant-i-focus-full-report/
+Variable names
 
----
+Human-readable labels
 
-## 11. Licence & Reuse
+Scale ranges (1–7, 1–10, categorical encodings)
 
-**Licence:** CC-BY-4.0 — Attribution required.  
-**Attribution text:**  
+Notes on derived variables or indices
+
+9. Processing & Cleaning
+
+Pipeline:
+
+Exported raw responses from Google Forms.
+
+Removed 1 attention-check fail.
+
+Removed 1 duplicate Prolific ID.
+
+Fixed encoding issues (apostrophes, en-dashes, special characters).
+
+Manually checked for straight-lining and non-engaged responses.
+
+Confirmed no missing mandatory values.
+
+Saved final cleaned dataset as ai_work_identity_cleaned_20251114.csv.
+
+Prepared final data dictionary and README.
+
+SHA-256 checksums will be generated for all final files.
+
+10. Provenance & Linking
+
+Creator / Publisher: Human Clarity Institute
+
+isBasedOn: None (original survey instrument)
+
+Related HCI datasets:
+
+Digital Life 2025 — https://humanclarityinstitute.com/datasets/digital-life-2025/
+
+Focus & Distraction 2025 — https://humanclarityinstitute.com/datasets/focus-distraction-2025/
+
+11. Licence & Reuse
+
+Licence:
+Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+Use, share, and build upon this dataset with attribution:
+
 “Data © Human Clarity Institute (2025), CC-BY-4.0.”
 
----
+12. Version History
+Version	Date	Change
+v1.0.1	2025-11-14	Initial public dataset release
+13. Contact & Dashboard
 
-## 12. Version History
+Email: info@humanclarityinstitute.com
 
-| Version | Date | Change          |
-|---------|------|------------------|
-| v1.0    | TBC  | Initial release  |
+Website: https://humanclarityinstitute.com
 
----
-
-## 13. Contact & Dashboard Integration
-
-**Email:** info@humanclarityinstitute.com  
-**Website:** https://humanclarityinstitute.com/  
-**Dashboard Cluster:** Human Identity & Work  
-**Dashboard Link:** https://humanclarityinstitute.com/data-dashboard/
+Dashboard cluster: Human Identity & Work
+Dashboard: https://humanclarityinstitute.com/data-dashboard/
