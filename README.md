@@ -20,7 +20,6 @@ Human Clarity Institute. (2025). *AI, Work & Human Identity Survey 2025 (Dataset
 
 **BibTeX:**
 
-```bibtex
 @dataset{hci_ai_human_2025,
   author    = {Human Clarity Institute},
   title     = {AI, Work \& Human Identity Survey 2025 (Dataset)},
@@ -178,6 +177,7 @@ Use, share, remix, or build on this dataset with attribution:
 **Website:** https://humanclarityinstitute.com  
 **Dashboard cluster:** Human Identity & Work  
 **Dashboard:** https://humanclarityinstitute.com/data-dashboard/
+
 
 
 
