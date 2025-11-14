@@ -11,12 +11,21 @@ Part of the Human Clarity Institute’s **AI–Human Experience Data Series**, d
 
 ---
 
+## Repository / Access Links
+
+- **GitHub:** https://github.com/HumanClarityInstitute/ai-work-identity-2025  
+- **Zenodo:** https://doi.org/10.5281/zenodo.17604672  
+- **Figshare:** https://doi.org/10.6084/m9.figshare.30615563  
+
+This dataset is archived in **GitHub, Zenodo, and Figshare** for long-term preservation.
+
+---
+
 ## 1. Citation
 
 **APA:**
 
 Human Clarity Institute. (2025). *AI, Work & Human Identity Survey 2025 (Dataset).* HCI. https://doi.org/10.5281/zenodo.17604672
-
 
 **BibTeX:**
 
@@ -29,7 +38,6 @@ Human Clarity Institute. (2025). *AI, Work & Human Identity Survey 2025 (Dataset
       url       = {https://humanclarityinstitute.com/datasets/ai-human-2025/},
       license   = {CC-BY-4.0}
     }
-
 
 ---
 
@@ -178,10 +186,3 @@ Use, share, remix, or build on this dataset with attribution:
 **Website:** https://humanclarityinstitute.com  
 **Dashboard cluster:** Human Identity & Work  
 **Dashboard:** https://humanclarityinstitute.com/data-dashboard/
-
-
-
-
-
-
-
