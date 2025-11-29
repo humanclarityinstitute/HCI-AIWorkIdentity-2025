@@ -1,7 +1,7 @@
 # AI, Work & Human Identity Survey 2025 (Dataset)
 
 **Human Clarity Institute (HCI)**  
-**DOI:** https://doi.org/10.5281/zenodo.17604671  
+**DOI:** 10.5281/zenodo.17604671  
 **Version:** v1.0.1  
 **Licence:** CC-BY-4.0  
 **Landing page:** https://humanclarityinstitute.com/datasets/ai-human-2025/  
@@ -186,4 +186,5 @@ Use, share, remix, or build on this dataset with attribution:
 **Email:** info@humanclarityinstitute.com  
 **Website:** https://humanclarityinstitute.com  
 **Dashboard:** https://humanclarityinstitute.com/data-dashboard/
+
 
