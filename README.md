@@ -47,7 +47,7 @@ Human Clarity Institute. (2025). *AI, Work & Human Identity Survey 2025 (Dataset
 Measure how AI changes people’s sense of identity, agency, meaning, relevance, and belonging at work — especially as AI becomes a co-worker or decision partner.
 
 **Scope:**  
-Adults (18+) in paid employment across the UK, US, Canada, Australia, Ireland, and New Zealand (N ≈ 500).
+Adults (18+) in paid employment across the UK, US, Canada, Australia, Ireland, and New Zealand (N ≈ 504).
 
 **Themes included:**  
 - Identity change  
@@ -186,5 +186,6 @@ Use, share, remix, or build on this dataset with attribution:
 **Email:** info@humanclarityinstitute.com  
 **Website:** https://humanclarityinstitute.com  
 **Dashboard:** https://humanclarityinstitute.com/data-dashboard/
+
 
 
