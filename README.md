@@ -1,7 +1,7 @@
 # AI, Work & Human Identity Survey 2025 (Dataset)
 
 **Human Clarity Institute (HCI)**  
-**DOI:** https://doi.org/10.5281/zenodo.17604672  
+**DOI:** https://doi.org/10.5281/zenodo.17604671  
 **Version:** v1.0.1  
 **Licence:** CC-BY-4.0  
 **Landing page:** https://humanclarityinstitute.com/datasets/ai-human-2025/  
@@ -14,7 +14,7 @@ Part of the Human Clarity Institute’s **AI–Human Experience Data Series**, d
 ## Repository / Access Links
 
 - **GitHub:** https://github.com/HumanClarityInstitute/ai-work-identity-2025  
-- **Zenodo:** https://doi.org/10.5281/zenodo.17604672  
+- **Zenodo:** https://doi.org/10.5281/zenodo.17604671
 - **Figshare:** https://doi.org/10.6084/m9.figshare.30615563  
 
 This dataset is archived in **GitHub, Zenodo, and Figshare** for long-term preservation.
@@ -25,7 +25,7 @@ This dataset is archived in **GitHub, Zenodo, and Figshare** for long-term prese
 
 **APA:**
 
-Human Clarity Institute. (2025). *AI, Work & Human Identity Survey 2025 (Dataset).* HCI. https://doi.org/10.5281/zenodo.17604672
+Human Clarity Institute. (2025). *AI, Work & Human Identity Survey 2025 (Dataset).* HCI. https://doi.org/10.5281/zenodo.17604671
 
 **BibTeX:**
 
@@ -34,7 +34,7 @@ Human Clarity Institute. (2025). *AI, Work & Human Identity Survey 2025 (Dataset
       title     = {AI, Work \& Human Identity Survey 2025 (Dataset)},
       year      = {2025},
       publisher = {Human Clarity Institute},
-      doi       = {10.5281/zenodo.17604672},
+      doi       = {10.5281/zenodo.17604671},
       url       = {https://humanclarityinstitute.com/datasets/ai-human-2025/},
       license   = {CC-BY-4.0}
     }
@@ -85,9 +85,10 @@ No further modifications will be made post-publication. Any future update will a
 
 - `ai_work_identity_cleaned_20251114.csv` — final cleaned dataset  
 - `AI_Work_and_Human_Identity_Dataset_2025_data_dictionary.csv` — variable dictionary  
-- `README.md` — this documentation  
+- `README.md` — this documentation
+- `sha256.txt` 
 
-**Sample size:** n ≈ 500  
+**Sample size:** n ≈ 504  
 **Countries:** UK, US, Canada, Australia, Ireland, New Zealand  
 
 ---
@@ -184,5 +185,5 @@ Use, share, remix, or build on this dataset with attribution:
 
 **Email:** info@humanclarityinstitute.com  
 **Website:** https://humanclarityinstitute.com  
-**Dashboard cluster:** Human Identity & Work  
 **Dashboard:** https://humanclarityinstitute.com/data-dashboard/
+
